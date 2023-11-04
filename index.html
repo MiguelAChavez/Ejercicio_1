@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Angel Chavez">
+    <title>Seguro No Pagamos Cooperativa</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script defer src="Js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+    </header>
+    <main>
+        <form id="form">
+            <label for="nombre"></label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ejemplo: Juan" autocomplete="off">
+
+            <label for="apellido"></label>
+            <input type="text" name="apellido" id="apellido" placeholder="Pérez" autocomplete="off">
+
+            <label for="dni"></label>
+            <input type="number" name="dni" id="dni" placeholder="12345678" autocomplete="off">
+
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@correo.com" autocomplete="off">
+
+            <label for="telefono"></label>
+            <input type="tel" name="telefono" id="telefono" placeholder="555123456"" autocomplete=" off">
+
+            <label for="tipo">Tipo de seguro:</label>
+            <select name="tipo" id="tipo">
+                <option value="" selected>Seleccione</option>
+                <option value="basico">Básico</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="premium">Premium</option>
+            </select>
+
+            <section class="precio">
+                <h3>Precio:</h3>
+                <span id="precio">$</span>
+            </section>
+
+            <section>
+                <button type="submit" class="b_submit">Enviar</button>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>

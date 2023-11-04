@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle at 95.45% -4.17%, #cfa8ff 0, #9d8bff 25%, #6c6cd8 50%, #3f4ea4 75%, #153375 100%);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+form {
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    background-color: rgba(163, 208, 247, 0.768);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #0d022a;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+    padding: .5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0d022a;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.precio {
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    border-radius: .8em;
+    height: 150px;
+    color: #060115;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.precio h3 {
+    position: relative;
+    top: -20px;
+}
+
+.b_submit {
+    cursor: pointer;
+    width: 50%;
+    background: #6c6cd8;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: .8rem 0;
+    border: none;
+    border-radius: .5em;
+}
+
+.b_submit:hover {
+    background: #5959c2;
+}
